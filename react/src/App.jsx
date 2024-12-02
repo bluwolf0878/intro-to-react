@@ -1,38 +1,15 @@
 import './App.scss' ;
+import { Header } from "react/src/components/header.jsx";
+import { Main } from "react/src/components/main.jsx";
+import { Footer } from "react/src/components/footer.jsx";
 
 const App = () => {
   return (
     <>
-   </>
+    <Header></Header>
+    <Main></Main>
+    <Footer></Footer>
+    </>
   )
 }
 export default App ;
-
-const HeaderComponent = () => {
-  return (
-    <header>
-      <nav>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </nav>
-    </header>
-  );
-};
-export HeaderComponent
-
-const MainComponent = () => {
-  return (
-    <main></main>
-  );
-};
-export MainComponent
-
-const FooterComponent = () => {
-  return (
-    <footer></footer>
-  );
-};
-export FooterComponent

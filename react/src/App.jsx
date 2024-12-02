@@ -11,7 +11,13 @@ export default App ;
 const HeaderComponent = () => {
   return (
     <header>
-      <nav></nav>
+      <nav>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </nav>
     </header>
   );
 };
